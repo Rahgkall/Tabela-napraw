@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Napraw Skrzyżowań</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Data Naprawy</th>
+                <th>Nazwa Skrzyżowania</th>
+                <th>Opis Naprawy</th>
+                <th>Data Wykonania Naprawy</th>
+                <th>Wykonawca</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Wiersze tabeli -->
+            <tr>
+                <td><input type="date"></td>
+                <td>
+                    <select>
+                        <option value="1Maja/PDP">1Maja/PDP</option>
+                        <option value="Budowlanych/Kominka">Budowlanych/Kominka</option>
+                        <option value="Cystersów/Milenijna">Cystersów/Milenijna</option>
+                        <option value="Energetyków/PDP Szpital">Energetyków/PDP Szpital</option>
+                        <option value="Energetyków/PDP">Energetyków/PDP</option>
+                        <option value="Gałczyńskiego/1 Maja">Gałczyńskiego/1 Maja</option>
+                        <option value="Gliwicka/KEN">Gliwicka/KEN</option>
+                        <option value="Gliwicka/Lipowa">Gliwicka/Lipowa</option>
+                        <option value="Gliwicka/Łony">Gliwicka/Łony</option>
+                        <option value="Gliwicka/Przejście 105">Gliwicka/Przejście 105</option>
+                        <option value="Gliwicka/Stadion">Gliwicka/Stadion</option>
+                        <option value="Góreckiego/Św. Józefa">Góreckiego/Św. Józefa</option>
+                    </select>
+                </td>
+                <td><textarea rows="3"></textarea></td>
+                <td><input type="date"></td>
+                <td>
+                    <select>
+                        <option value="Tomasz Bosy">Tomasz Bosy</option>
+                        <option value="Tomasz Resiak">Tomasz Resiak</option>
+                        <option value="Piotr Węgrzyn">Piotr Węgrzyn</option>
+                        <option value="Jacek Szpecht">Jacek Szpecht</option>
+                        <option value="Jacek Kubera">Jacek Kubera</option>
+                        <option value="Jan Fizia">Jan Fizia</option>
+                        <option value="Rafał Grzybek">Rafał Grzybek</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- Dodaj więcej wierszy w razie potrzeby -->
+        </tbody>
+    </table>
+</body>
+</html>
